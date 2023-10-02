@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+body {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.05em;
+}
+
+img {
+    width: 100%;
+}
+
+.inner {
+    width: 86.4%;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0 40px;
+}
+
+h2 img {
+    max-width: 640px;
+    position: absolute;
+    object-fit: cover;
+    width: 86.4%;
+    height: 79%;
+    display: block;
+}
+
+.recruiting {
+    width: 53.5%;
+    background-color: #fff;
+    position: relative;
+    top: 240px;
+    padding: 40px;
+}
+
+.recruiting p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0.6;
+    padding-bottom: 30px;
+}
+
+.recruiting h2 {
+    font-size: 36px;
+}
+
+.discusson {
+    margin-top: 437px;
+}
+
+.discusson h3 {
+    width: 194px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #fff;
+    background-color: #72C9F3;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.discusson h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.imgs {
+    position: absolute
+}
+
+
+.interrogative {
+    top: 350px;
+    left: 40px;
+    position: relative;
+    color: #fff;
+}
+
+@media only screen and (min-width: 740px) {
+    .inner {
+        width: 76%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
